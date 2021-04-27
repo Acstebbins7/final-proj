@@ -42,6 +42,11 @@ h1 {
   margin-bottom: 20px;
 }
 
+p {
+  align-content: stretch;
+  display: block;
+}
+
 .footer {
   background-image: url("https://images.freeimages.com/images/large-previews/7ef/grass-texture-1166117.jpg");
   background-position: bottom;
