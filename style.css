@@ -1,0 +1,56 @@
+* {
+  background-color: black;
+}
+body {
+  color: lightskyblue;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: black;
+  height: 900px;
+}
+
+.header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 80px;
+  border-radius: 30px;
+  align-items: baseline;
+  justify-content: center;
+  display: flex;
+}
+.header h1 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: lightskyblue;
+  font-size: 40px;
+}
+
+.jumbotron {
+  align-items: center;
+  background-image: url("https://cdn.mos.cms.futurecdn.net/6h8C6ygTdR2jyyUxkALwsc.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  color: green;
+  height: 650px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-image: url("https://images.freeimages.com/images/large-previews/7ef/grass-texture-1166117.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: green;
+  font-weight: bolder;
+  color: lightskyblue;
+  align-items: baseline;
+  justify-content: center;
+  display: flex;
+  height: 80px;
+  margin-top: 20px;
+}
