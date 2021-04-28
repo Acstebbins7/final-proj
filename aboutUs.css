@@ -7,7 +7,7 @@ body {
   justify-content: center;
   display: flex;
   background-color: black;
-  height: 900px;
+  height: 1500px;
 }
 
 .header {
@@ -28,61 +28,30 @@ h1 {
   margin-top: 60px;
 }
 
-.jumbotron {
+.container {
   align-items: center;
-  background-image: url("https://cdn.mos.cms.futurecdn.net/6h8C6ygTdR2jyyUxkALwsc.jpg");
+  background-image: url("./images/flock1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   border: 10px solid forestgreen;
+  border-radius: 20px;
   display: flex;
   justify-content: space-between;
   color: green;
-  height: 650px;
+  height: 1000px;
   margin-bottom: 20px;
 }
 
-.jumbotron #p1 {
-  align-content: center;
-  /* justify-content: space-around; */
+.container #p1 {
+  align-content: flex-end;
   display: flex;
-  margin-right: 20px;
+  margin-top: 660px;
   border: 5px solid forestgreen;
   border-radius: 8px;
   padding: 15px;
-  height: 200px;
-}
-
-.jumbotron #p2 {
-  align-content: center;
-  /* justify-content: space-around; */
-  display: flex;
-  margin: 20px;
-  border: 5px solid forestgreen;
-  border-radius: 8px;
-  padding: 15px;
-  height: 200px;
-}
-
-.jumbotron #p3 {
-  align-content: center;
-  /* justify-content: space-around; */
-  display: flex;
-  margin: 20px;
-  border: 5px solid forestgreen;
-  border-radius: 8px;
-  padding: 15px;
-  height: 200px;
-}
-
-.jumbotron #p4 {
-  align-content: center;
-  /* justify-content: space-around; */
-  display: flex;
-  border: 5px solid forestgreen;
-  border-radius: 8px;
-  padding: 15px;
-  height: 200px;
+  height: 250px;
+  font-weight: bolder;
 }
 
 .footer {
@@ -99,6 +68,7 @@ h1 {
   height: 80px;
   margin-top: 20px;
   padding-top: 20px;
+  position: relative;
 }
 
 .btn-group {

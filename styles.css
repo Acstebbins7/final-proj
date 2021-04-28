@@ -4,7 +4,7 @@ body {
   align-items: center;
   margin: 0;
   height: 100vh;
-  background-image: url("https://images.nintendolife.com/00dda5c8d1fbf/donkey-kong-country.original.jpg");
+  background-image: url("https://images4.alphacoders.com/191/thumb-1920-191376.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,8 +27,11 @@ body {
   width: 900px;
   height: 815px;
   margin-left: 5px;
-  margin-right: 200px;
-  background-color: black;
+  /* margin-right: 200px; */
+  background-image: url("https://media.giphy.com/media/J3S8RLiFrk5zqoNv0z/giphy.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border: 4px solid rgb(16, 252, 36);
   position: relative;
 }

@@ -7,7 +7,7 @@ body {
   justify-content: center;
   display: flex;
   background-color: black;
-  height: 900px;
+  max-height: 3000px;
 }
 
 .header {
@@ -30,12 +30,28 @@ h1 {
 
 .jumbotron {
   align-items: center;
-  background-image: url("https://cdn.mos.cms.futurecdn.net/6h8C6ygTdR2jyyUxkALwsc.jpg");
+  background-image: url("images/chickenhead.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-color: forestgreen;
   border: 10px solid forestgreen;
-  display: flex;
+  display: grid;
+  justify-content: center;
+  color: green;
+  height: 650px;
+  margin-bottom: 20px;
+}
+
+.jumbotron-1 {
+  align-items: center;
+  background-image: url("images/chickies.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: forestgreen;
+  border: 10px solid forestgreen;
+  display: grid;
   justify-content: center;
   color: green;
   height: 650px;
