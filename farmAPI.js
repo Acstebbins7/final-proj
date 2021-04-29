@@ -5,20 +5,3 @@ const fetch = require('node-fetch');
   const json = response.json();
   console.log(json);
 })();
-
-
-//  // Step 1: Make a GET request to the Dog API URL
-// fetch(URL)
-
-// // Step 2: Extract JSON from response
-// .then((res) => res.json())
-
-// // Step 3: Process JSON as we please
-// .then((data) => {
-
-//     console.log('success!');
-//     console.log(data.message);
-
-//     // TODO: Handle the data here
-
-// });
