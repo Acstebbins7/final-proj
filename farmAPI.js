@@ -1,7 +1,15 @@
-const fetch = require('node-fetch');
+// const button = what the fuck
 
-(async () => {
-  const response = fetch('https://trefle.io/api/v1/plants?token=rNcvKrCyAO_7NPzYh9ev56Q0UXSGul2ttWFRtMVfoOc');
-  const json = response.json();
-  console.log(json);
-})();
+button.addEventListener("click", function () {
+  const URL = 'https://trefle.io/api/v1/plants?token=rNcvKrCyAO_7NPzYh9ev56Q0UXSGul2ttWFRtMVfoOc';
+  console.log('button clicked')
+
+  fetch(URL)
+  .then(function (rawResponse) {
+      return rawResponse.json();
+  })
+  .then(function (json) {
+      pics.src = json.message
+      console.log(json)
+  })
+})
