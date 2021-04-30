@@ -10,6 +10,10 @@ body {
   max-height: 3000px;
 }
 
+.container-fluid {
+  margin-top: 50px;
+}
+
 .header {
   margin-top: 20px;
   margin-bottom: 0px;
