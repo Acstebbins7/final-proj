@@ -2,12 +2,6 @@ The point of this website is to be a final project for a Code Immersives. What i
 
 As far as the functionality goes, the main focus will be the ability to create a shopping list to buy our products. I haven't put much thought into that part yet as I begin with HTML and CSS. I will get the page laid out and then begin with the functionality.
 
-Update: I added a game we made earlier and themed it Donkey Pong. A simple add with bringing over the code and created a simple button on my index.html page. The game isn't very well done. It works but seeing it now I know it could be improved. That will not be done as I have plenty more to go tackle on this assignment. I thought it was a good fun add to the homepage. 
+Update: I added a game we made earlier and themed it Donkey Pong. A simple add with bringing over the code and created a simple button on my index.html page. The game isn't very well done. It works but seeing it now I know it could be improved. That will not be done as I have plenty more to go tackle on this assignment. I thought it was a good fun add to the homepage.  
 
-Need to work on some of the images layout... that will be handled 
-
-JAVASCRIPT needs to be done for the Store page. 
-
-Thought about incorporating API use for weather given that there is a strong relationship with farmers and the weather.
-
-IF those items get completed I will add the API. My README is being used as a typed todo list as I work.
+Project is progressing On day 5 of actually working on it. I have made several attempts at API calls. The only one that I have had luck with is the Chart API. Got two days left to turn in a final product....
