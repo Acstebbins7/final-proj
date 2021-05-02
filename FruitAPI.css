@@ -76,6 +76,8 @@ h1 {
   vertical-align: middle;
   width: 100%;
 }
+.myChart {
+}
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {

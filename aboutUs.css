@@ -1,6 +1,7 @@
 * {
   background-color: black;
 }
+
 body {
   color: lightskyblue;
   align-items: center;
@@ -19,6 +20,7 @@ body {
   justify-content: center;
   display: flex;
 }
+
 h1 {
   align-items: center;
   justify-content: center;
@@ -28,8 +30,9 @@ h1 {
   margin-top: 60px;
 }
 
-.container {
+.jumbotron {
   align-items: center;
+  align-content: center;
   background-image: url("./images/flock1.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -43,7 +46,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-.container #p1 {
+.jumbotron #p1 {
   align-content: flex-end;
   display: flex;
   margin-top: 660px;
