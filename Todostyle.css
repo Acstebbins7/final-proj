@@ -3,6 +3,13 @@
   margin: 10px;
 }
 
+.btn-group {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: center;
+}
+
 .container {
   background-image: url("./images/TODOMBackground.png");
   margin-bottom: 50px;
@@ -31,10 +38,10 @@
   align-items: center;
 }
 
-button {
+/* button {
   margin-left: 450px;
   font-weight: bolder;
-}
+} */
 
 #add {
   margin-left: 250px;

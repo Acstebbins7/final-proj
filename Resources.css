@@ -1,0 +1,68 @@
+body {
+  color: lightskyblue;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: black;
+  font-weight: bolder;
+}
+
+.header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 80px;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+h1 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: lightskyblue;
+  font-size: 60px;
+  margin-top: 60px;
+}
+h4 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: lightskyblue;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.jumbotron {
+  align-items: center;
+  border: 10px solid forestgreen;
+  display: flex;
+  justify-content: center;
+  color: green;
+  margin-bottom: 20px;
+}
+
+.jumbotron dl {
+  max-height: fit-content;
+}
+
+.footer {
+  background-image: url("https://images.freeimages.com/images/large-previews/7ef/grass-texture-1166117.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: green;
+  font-weight: bolder;
+  color: lightskyblue;
+  align-items: baseline;
+  justify-content: center;
+  display: flex;
+  height: 80px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.btn-group {
+  border: 10px solid forestgreen;
+  border-radius: 10px;
+}
