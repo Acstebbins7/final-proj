@@ -7,11 +7,10 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-left: center;
+  margin-left: 260px;
 }
 
 .container {
-  background-image: url("./images/TODOMBackground.png");
   margin-bottom: 50px;
 }
 
@@ -21,10 +20,6 @@
 
 .container {
   background-color: black;
-  height: 1200px;
-  width: 1000px;
-  padding: 100px;
-  margin-bottom: 10px;
 }
 
 .jumbotron {
@@ -37,11 +32,6 @@
   display: flex;
   align-items: center;
 }
-
-/* button {
-  margin-left: 450px;
-  font-weight: bolder;
-} */
 
 #add {
   margin-left: 250px;
