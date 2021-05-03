@@ -35,15 +35,12 @@ h4 {
 
 .jumbotron {
   align-items: center;
+  background-color: black;
   border: 10px solid forestgreen;
   display: flex;
   justify-content: center;
   color: green;
   margin-bottom: 20px;
-}
-
-.jumbotron dl {
-  max-height: fit-content;
 }
 
 .footer {

@@ -1,4 +1,3 @@
-  
 const todoList = document.querySelector(".todo-list");
 updateList();
 document.querySelector(".add-todo").addEventListener('click', () => {
