@@ -8,7 +8,6 @@ body {
   justify-content: center;
   display: flex;
   background-color: black;
-  height: 1500px;
 }
 
 .header {
@@ -42,7 +41,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   color: green;
-  height: 1000px;
+  size: 100vh;
   margin-bottom: 20px;
 }
 
